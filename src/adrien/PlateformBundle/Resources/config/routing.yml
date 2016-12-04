@@ -1,0 +1,34 @@
+adrien_plateform_home:
+    path:      /{page}
+    defaults:
+        _controller: adrienPlateformBundle:Advert:index
+        page:        1
+    requirements:
+        page: \d*
+    
+adrien_plateform_view:
+    path:      /advert/{id}
+    defaults:
+        _controller: adrienPlateformBundle:Advert:view
+    requirements:
+        id: \d+
+
+adrien_plateform_add:
+    path:      /add
+    defaults:
+        _controller: adrienPlateformBundle:Advert:add
+
+adrien_plateform_edit:
+    path:      /edit/{id}
+    defaults:
+        _controller: adrienPlateformBundle:Advert:edit
+    requirements:
+        id: \d+
+
+adrien_plateform_delete:
+    path:      /delete/{id}
+    defaults:
+        _controller: adrienPlateformBundle:Advert:delete
+    requirements:
+        id: \d+
+
