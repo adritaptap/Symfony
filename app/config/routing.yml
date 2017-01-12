@@ -1,0 +1,7 @@
+cv_cv:
+    resource: "@CvCVBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

@@ -1,0 +1,62 @@
+	<!DOCTYPE html>
+	<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>{% block title %}{% endblock %}</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+		
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="/">home</a>
+					</div>
+					<div id="navbar" class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="/">CV</a></li>
+							<li><a href="/hobby">Hobby</a></li>
+							<li><a href="/videopitch">Video Pitch</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
+			</nav>
+
+			{% block content %}
+			{% endblock %}
+			<div class="container" id="decouvrez">
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<a href="benjamin.bronsart.campus-grenoble.fr" class="btn btn-lg btn-default" role="button">Découvrez Benjamin</a>
+					</div>    
+					<div class="col-md-4 col-sm-12">
+						<a href="jerome.lombard.campus-grenoble.fr" class="btn btn-lg btn-default" role="button">Découvrez Jerôme</a>
+					</div>    
+					<div class="col-md-4 col-sm-12">
+						<a href="joel-ponson.tech" class="btn btn-lg btn-default" role="button">Découvrez Joël</a>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class="container">
+					<p class="text-center">- copyright Les Tontons Codeurs - Campus numérique in the Alps -</p>
+				</div>
+			</footer>
+
+		</div>
+	</body>
+
+	</html>
+

@@ -1,0 +1,9 @@
+scv_cv_homepage:
+    path:     /
+    defaults: { _controller: CvCVBundle:Home:index }
+scv_cv_hobbypage:
+    path:     /hobby
+    defaults: { _controller: CvCVBundle:Home:hobby }
+scv_cv_videopage:
+    path:     /videopitch
+    defaults: { _controller: CvCVBundle:Home:videopitch }
