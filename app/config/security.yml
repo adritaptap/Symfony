@@ -1,8 +1,15 @@
 # To get started with security, check out the documentation:
+<<<<<<< HEAD
 # http://symfony.com/doc/current/security.html
 security:
 
     # http://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
+=======
+# http://symfony.com/doc/current/book/security.html
+security:
+
+    # http://symfony.com/doc/current/book/security.html#where-do-users-come-from-user-providers
+>>>>>>> 5a0ab20937f6cc031d14c1d57030f5a16bc64af9
     providers:
         in_memory:
             memory: ~
@@ -18,7 +25,11 @@ security:
             # activate different ways to authenticate
 
             # http_basic: ~
+<<<<<<< HEAD
             # http://symfony.com/doc/current/security.html#a-configuring-how-your-users-will-authenticate
+=======
+            # http://symfony.com/doc/current/book/security.html#a-configuring-how-your-users-will-authenticate
+>>>>>>> 5a0ab20937f6cc031d14c1d57030f5a16bc64af9
 
             # form_login: ~
             # http://symfony.com/doc/current/cookbook/security/form_login_setup.html

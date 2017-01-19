@@ -16,7 +16,11 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
+<<<<<<< HEAD
             new Cv\CVBundle\CvCVBundle(),
+=======
+            new adrien\PlateformBundle\adrienPlateformBundle(),
+>>>>>>> 5a0ab20937f6cc031d14c1d57030f5a16bc64af9
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

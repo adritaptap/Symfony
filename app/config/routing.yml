@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 cv_cv:
     resource: "@CvCVBundle/Resources/config/routing.yml"
+=======
+adrien_plateform:
+    resource: "@adrienPlateformBundle/Resources/config/routing.yml"
+>>>>>>> 5a0ab20937f6cc031d14c1d57030f5a16bc64af9
     prefix:   /
 
 app:

@@ -1,5 +1,9 @@
 # Learn more about services, parameters and containers at
+<<<<<<< HEAD
 # http://symfony.com/doc/current/service_container.html
+=======
+# http://symfony.com/doc/current/book/service_container.html
+>>>>>>> 5a0ab20937f6cc031d14c1d57030f5a16bc64af9
 parameters:
 #    parameter_name: value
 

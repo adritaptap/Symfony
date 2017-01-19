@@ -31,8 +31,11 @@ framework:
     fragments:       ~
     http_method_override: true
     assets: ~
+<<<<<<< HEAD
     php_errors:
         log: true
+=======
+>>>>>>> 5a0ab20937f6cc031d14c1d57030f5a16bc64af9
 
 # Twig Configuration
 twig:

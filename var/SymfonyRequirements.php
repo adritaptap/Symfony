@@ -780,11 +780,15 @@ class SymfonyRequirements extends RequirementCollection
     {
         $size = ini_get('realpath_cache_size');
         $size = trim($size);
+<<<<<<< HEAD
         $unit = '';
         if (!ctype_digit($size)) {
             $unit = strtolower(substr($size, -1, 1));
             $size = (int) substr($size, 0, -1);
         }
+=======
+        $unit = strtolower(substr($size, -1, 1));
+>>>>>>> 5a0ab20937f6cc031d14c1d57030f5a16bc64af9
         switch ($unit) {
             case 'g':
                 return $size * 1024 * 1024 * 1024;
